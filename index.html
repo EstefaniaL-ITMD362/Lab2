@@ -8,14 +8,22 @@
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
-  <form action="" method="get" autocomplete="on">
-    <label for="email">Please enter your email</label>
-    <input type="emal" name="email" id="email" required>
+  <form action="" method="get" autocomplete="on"  class="formatForm">
+    <div class="formatForm"> 
+      <label for="email">Please enter your email</label>
+      <input type="emal" name="email" id="email" required>
+    </div>
+    <div class="formatForm"> 
     <label for="number">Please enter your phone number</label>
-    <input type="tel" name="number"  id="number" required>
+    <input type="tel" name="number"  id="number" required placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+  </div>
+  <div class="formatForm"> 
     <label for="DOB">Please enter your date of birth</label>
     <input type="date" name="DOB" id="DOB" required>
+  </div>
+  <div class="formatForm"> 
     <input type="submit" value="Submit">
+  </div>
   </form>
 </body>
 </html>

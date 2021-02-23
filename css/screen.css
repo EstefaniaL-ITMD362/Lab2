@@ -1,9 +1,22 @@
-label {
+body{
+  background-color: aqua;
+}
+form.formatForm {
   display: block;
-  font: 1rem 'Fira Sans', sans-serif;
 }
 
-input,
-label {
-  margin: .4rem 0;
+div.formatForm {
+  display: block;
+}
+
+label, input {
+  display: block;
+  font: 110% 'Fira Sans', sans-serif;
+  margin : 0 auto;
+  text-align: center;
+
+}
+label{
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
